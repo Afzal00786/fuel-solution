@@ -1,0 +1,64 @@
+.main_container{
+	width: 100%;
+height: 100vh;
+	border-right: 2px solid #BCBCBC;
+}
+.header_wraper{
+	font-size: 30px;
+	font-weight: 700;
+	padding: 30px 30px;
+	border-bottom: 2px solid #BCBCBC;
+}
+.form_container{
+	padding: 30px 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+.form_ele_box{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+.io_ele{
+	border: none;
+	outline: none;
+	height: 100%;
+	font-size: 18px;
+	padding-left: 5px;
+	background-color: transparent;
+	width: 100%;
+	border-radius: 16px;
+}
+.form_textarea{
+	width: 100%;
+	border: 2px solid #BCBCBC;
+	border-radius: 16px;
+	height: 300px;
+	padding: 20px 20px;
+}
+.report_container{
+	padding: 0px 20px;
+}
+.save_btn{
+	display: flex;
+	width: 100%;
+	font-size: 30px;
+	font-weight: 700;
+	color: white;
+	border-radius: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	height: 60px;
+	background-color: #1CAC19;
+}
+.form_ele{
+	height: 60px;
+	border-radius: 16px;
+	width: 300px;
+	padding: 0px 10px;
+	border: 2px solid #BCBCBC;
+}
